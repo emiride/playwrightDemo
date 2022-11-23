@@ -48,6 +48,8 @@ const config: PlaywrightTestConfig = {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
+        trace: 'on',
+        video: 'on',
       },
     },
 
@@ -55,6 +57,8 @@ const config: PlaywrightTestConfig = {
       name: 'firefox',
       use: {
         ...devices['Desktop Firefox'],
+        trace: 'on',
+        video: 'on',
       },
     },
 
@@ -62,6 +66,8 @@ const config: PlaywrightTestConfig = {
       name: 'webkit',
       use: {
         ...devices['Desktop Safari'],
+        trace: 'on',
+        video: 'on',
       },
     },
 
