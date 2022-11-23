@@ -1,0 +1,21 @@
+{
+  "name": "playwrightdemo",
+  "version": "1.0.0",
+  "description": "Just a demo project for testing stuff",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiride/playwrightDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiride/playwrightDemo/issues"
+  },
+  "homepage": "https://github.com/emiride/playwrightDemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  }
+}
