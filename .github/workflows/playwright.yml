@@ -23,6 +23,7 @@ jobs:
         REMOTE_HOST: ${{ secrets.HOST_DNS }}
         REMOTE_USER: ${{ secrets.USERNAME }}
         SOURCE: "playwright-report/"
+        TARGET: "playwright-report/"
     - uses: actions/upload-artifact@v3
       if: always()
       with:
